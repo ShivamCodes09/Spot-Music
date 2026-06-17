@@ -53,6 +53,8 @@ CLIENT_SECRET=your_spotify_client_secret_here
 REDIRECT_URI=http://localhost:8888/callback
 Make the .env file and store your credentials inside it.
 ```
+## Note
+Spotify's Development Mode API requires the owner of the registered app (the developer who created the Client ID) to have an active Premium subscription.
 
 ## 🚀 Usage
 Run the application using Python:
