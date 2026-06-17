@@ -46,18 +46,22 @@ Copy your Client ID and Client Secret.
 
 Create a file named .env in the same directory as SpotMusic.py and populate it with your credentials:
 
-## Code snippet
+## .env File 
+```text
 CLIENT_ID=your_spotify_client_id_here
 CLIENT_SECRET=your_spotify_client_secret_here
 REDIRECT_URI=http://localhost:8888/callback
 Make the .env file and store your credentials inside it.
+```
 
 ## 🚀 Usage
 Run the application using Python:
 
-Bash
+```bash
 python SpotMusic.py
-Navigating the App:
+```
+
+## Navigating the App:
 Set Download Folder: Click "Set Your Folder" to choose where downloaded MP3s will be saved. The app remembers this location.
 
 Download via Link: Paste a direct Spotify Track URL into the input field and click "Download this song".
