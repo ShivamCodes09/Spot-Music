@@ -32,19 +32,19 @@ Before running the application, ensure you have the following installed on your 
 
 
 ## ⚙️ Configuration (Spotify API Setup)
-To allow the app to access Spotify data, you need to set up a Spotify Developer Application.
-
-Go to the Spotify Developer Dashboard.
-
-Log in with your Spotify account and click Create App.
-
-Fill in the required details (App name, description).
-
-In the app settings, set the Redirect URI to http://localhost:8888/callback (or any custom local URI you prefer).
-
-Copy your Client ID and Client Secret.
-
-Create a file named .env in the same directory as SpotMusic.py and populate it with your credentials:
+    To allow the app to access Spotify data, you need to set up a Spotify Developer Application.
+    
+    Go to the Spotify Developer Dashboard.
+    
+    Log in with your Spotify account and click Create App.
+    
+    Fill in the required details (App name, description).
+    
+    In the app settings, set the Redirect URI to http://localhost:8888/callback (or any custom local URI you prefer).
+    
+    Copy your Client ID and Client Secret.
+    
+    Create a file named .env in the same directory as SpotMusic.py and populate it with your credentials:
 
 ## .env File 
 ```text
